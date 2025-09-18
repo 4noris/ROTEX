@@ -1,0 +1,87 @@
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Arial,Helvetica,sans-serif;
+      background:black;
+      color:#fff;
+      padding:18px;
+    }
+    header h1{
+      text-align:center;
+      margin-bottom:16px;
+      font-size:2em;
+      background: linear-gradient(90deg, #5A378A 0%, #EE7448 92.4%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .container{
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    .formulaBox{
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(12px);
+      width:420px;
+      min-width:300px;
+      border:1px solid rgba(255,255,255,0.2);
+      border-radius:12px;
+      padding:14px;
+      box-shadow:0 8px 20px rgba(255,255,255,0.05);
+    }
+    .formulaBox h3{
+      font-size:1.3em;
+      margin-bottom:8px;
+      color: transparent;
+      background: linear-gradient(90deg, #5A378A 0%, #EE7448 92.4%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    label{
+      display:block;
+      margin-top:8px;
+      font-size:13px;
+    }
+    input, select, button{
+      margin-top:6px;
+      padding:8px 10px;
+      width:100%;
+      border:1px solid rgba(255,255,255,0.3);
+      border-radius:6px;
+      font-size:14px;
+      background: rgba(255,255,255,0.05);
+      color:#fff;
+    }
+    input::placeholder{
+      color: rgba(255,255,255,0.6);
+    }
+    button{
+      background:#0077cc;
+      color:#fff;
+      border:none;
+      cursor:pointer;
+    }
+    button:hover{
+      background:#005fa3;
+    }
+    .result{
+      margin-top:12px;
+      padding:8px;
+      background: rgba(255,255,255,0.05);
+      border-radius:6px;
+      border:1px solid rgba(255,255,255,0.2);
+      font-weight:600;
+    }
+    .small{
+      font-size:12px;
+      color:rgba(255,255,255,0.6);
+      margin-top:6px;
+    }
+    .formulaText{
+      font-size:13px;
+      color:rgba(255,255,255,0.8);
+      margin-top:8px;
+      font-style:italic;
+    }
+  
